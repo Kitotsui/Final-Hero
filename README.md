@@ -10,12 +10,19 @@ Um jogo 2D desenvolvido em C utilizando a biblioteca Raylib
 
 🧩 Funcionalidades
 
-✅ Movimento lateral do herói
-✅ Sistema de animações (parado, correndo, atacando, tomando dano)
-✅ IA simples do demônio (movimento automático e ataque)
-✅ Colisão entre herói e inimigo
-✅ Estrutura modular com arquivos separados (main.c, texturas.c, texturas.h)
-✅ Gerenciamento de sprites via Raylib
+Movimento lateral do herói
+
+Sistema de animações (parado, correndo, atacando, tomando dano)
+
+IA simples do demônio (movimento automático e ataque utilizando números randômicos com a biblioteca do C)
+
+Colisão entre herói e inimigo
+
+Estrutura modular com arquivos separados (main.c, texturas.c, texturas.h)
+
+Gerenciamento de sprites via Raylib
+
+
 
 ⚙️ Tecnologias Utilizadas
 
@@ -27,25 +34,8 @@ MinGW (GCC) ou outro compilador C compatível
 
 Windows / Linux
 
-🗂️ Estrutura do Projeto
-final_hero/
-│
-├── main.c                 # Lógica principal do jogo
-├── texturas.c             # Funções de carregamento das texturas
-├── texturas.h             # Declaração das texturas e funções
-├── assets/
-│   ├── heroi/
-│   │   ├── parado/
-│   │   ├── correr/
-│   │   ├── ataque/
-│   │   └── tomou_ataque/
-│   └── demonio/
-│       ├── idle/
-│       ├── walk/
-│       └── attack/
-└── README.md
-
 🧠 Como Rodar o Projeto
+
 🔹 1. Instale a Raylib
 
 Se estiver no Windows (com MinGW):
@@ -75,3 +65,7 @@ A colisão entre o herói e o demônio é calculada com base em suas posições 
 
 Rogério Coutinho
 Desenvolvedor do projeto e aluno de Análise e Desenvolvimento de Sistemas no Instituto Federal do Triângulo Mineiro.
+
+Créditos
+
+Os sprites foram retirados de: https://chierit.itch.io/boss-demon-slime
