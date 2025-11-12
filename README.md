@@ -4,6 +4,7 @@ Um jogo 2D desenvolvido em C utilizando a biblioteca Raylib
 , onde o jogador controla um herói que enfrenta um demônio em uma arena. O projeto foi feito com foco em animações, movimentação fluida, colisões e organização modular de código.
 
 🎮 Demonstração
+
 <img src="https://img.itch.zone/aW1hZ2UvMTA3ODcxMC82MTg2Nzk2LmdpZg==/original/IzGwCg.gif" width="600" alt="Gameplay Preview">
 
 
